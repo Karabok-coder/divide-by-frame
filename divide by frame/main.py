@@ -21,7 +21,7 @@ while True:
 
     if is_true:
         im = Image.fromarray(frame)
-        im.save('img/' + str(number_frame) + '.png')
+        im.save(str(number_frame) + '.png')
         bar.next()
 
     length_video -= 1
