@@ -28,3 +28,4 @@ while True:
     if length_video < 1: break
 
 bar.finish()
+print('Done')
